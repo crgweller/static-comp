@@ -1,0 +1,79 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+  background: lightgray;
+}
+
+.main-header{
+  background: darkgrey;
+  height: 15vh;
+  width: 100vw;  
+}
+
+main {
+  height: 85vh;
+  width: 100vw;
+}
+
+.header-space {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  width: 100%;
+}
+
+.admin-dropdown {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.admin-user {
+  border: 2px solid #7F7F7F;
+  border-radius: 50%;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.admin-username {
+  color: #26A7E9;
+  font-size:0.75em;
+  margin: 0px 5px;
+}
+
+.drop-down {
+  height: 0.75em;
+  width: 0.75em;
+}
+
+.company {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  width: 40%;
+  height: 100%;
+}
+
+.initech {
+  color: #FFFFFF;
+  font-size: 1.75em;
+  font-family: 'Aleo', serif;
+}
+
+.paint-logo {
+  height: 1em;
+  width: 1em;
+}
+
